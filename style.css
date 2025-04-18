@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'poppins',sans-serif;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+
+/* header part */
+
+header{
+    width: 100%;
+    padding: 15px 0px;
+    position: sticky;
+    top: 0;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.logo a img{
+    width: 100px;
+   
+}
+.menu ul{
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+.menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 20px;
+    font-style: uppercase;
+    color: #fe0026;
+    font-size: 17px;
+}
+.btn button{
+    padding: 10px 20px;
+    color: #fe0026;
+    background: none;
+    font-size: 17px;
+    font-weight: 600;
+    border: 2px solid #fe0026;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.btn button:hover{
+   
+    background: #fe0026;
+    color: white;
+}
+
+/* banner code start */
+.banner{
+    width: 100%;
+    background: url(images/ban2.jpg) center center no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+    padding: 60px 0px;
+   
+}
+.banner .text1{
+    text-align: center;
+    padding-top: 160px;
+    
+    
+}
+
+.text1 h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: #fe0026;
+
+}
+.text1 p{
+    font-size: 20px;
+    font-weight: 500px;
+    color: #fe0026;
+}
+
+.banner .btn-ban button{
+    padding: 12px 28px;
+    color: #fe0026;
+    background: none;
+    font-size: 17px;
+    border: 2px solid #fe0026;
+    margin-top: 10px;
+    border-radius: 10px;
+
+
+}
+.banner .btn-ban button:hover{
+    background: #fe0026;
+    color: white;
+    margin-top: 10px;
+}
+
+/* feature section */
+.feature{
+    text-align: center;
+    padding: 60px 0;
+    background-color: rgb(225, 225, 231);
+
+}
+.feature h2{
+    
+    font-size: 40px;
+    font-weight: 300;
+}
+.feature span{
+    font-weight: 600;
+    color: #fe0026;
+}
+.feature p{
+    font-size: 18px;
+
+}
+.feature-box{
+    background-color: rgb(225, 225, 231);
+    padding-bottom: 60px;
+
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.box .box-1 h1{
+    font-size: 50px;
+    color: #fe0026;
+    font-weight: 600;
+    margin-bottom: 25px;
+
+}
+.box .box-1 h3{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.box .box-1 p{
+    font-size: 15px;
+    font-weight: 400;
+    color: grey;
+}
+
+
+.box .box-1{
+    flex-basis: 33%;
+    width: 40%;
+    background: rgb(240, 240, 243);
+    font-weight: 300;
+    font-size: 17px;
+    color: black;
+    padding: 35px 15px;
+    border-radius: 20px;
+    margin: 10px 5px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.box .box-2 h1{
+    font-size: 50px;
+    color: #fe0026;
+    font-weight: 600;
+    margin-bottom: 25px;
+
+}
+.box .box-2 h3{
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 10px;
+
+}
+.box .box-2 p{
+    font-size: 15px;
+    font-weight: 400;
+    color: grey;
+
+
+}
+
+
+
+.box .box-2{
+    flex-basis: 35%;
+    width: 40%;
+    background: rgb(240, 240, 243);
+    font-weight: 300;
+    color: black;
+    padding: 35px 8px;
+    border-radius: 20px;
+    margin: 10px 5px;
+    line-height: 25px;
+    text-align: center;
+}
+.box .box-3 h1{
+    font-size: 50px;
+    color: #fe0026;
+    font-weight: 600;
+    margin-bottom: 25px;
+
+}
+.box .box-3 h3{
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 10px;
+
+}
+.box .box-3 p{
+    font-size: 15px;
+    font-weight: 400;
+    color: grey;
+
+
+}
+
+.box .box-3{
+    flex-basis: 32%;
+    width: 40%;
+    background: rgb(240, 240, 243);
+    font-weight: 300;
+    font-size: 17px;
+    color: black;
+    padding: 35px 10px;
+    border-radius: 20px;
+    margin: 10px 5px;
+    line-height: 25px;
+    text-align: center;
+}
+product section
+
+.product-section .pro-box{
+    display: flex;
+    padding: 60px 0;
+    /* justify-content: space-between;
+    align-items: center; */
+
+}
+.pro-box .product{
+    flex-basis: 50%;
+}
+.pro-box .pro-image image{
+    flex-basis: 50%;
+    justify-content: space-between;
+    height: 40vh;
+    width: 30%;
+
+}
+
+
+/* footer sec */
+
+.footer{
+    padding: 20px 0;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+    color: grey;
+}
+
+
+
+
+
+
